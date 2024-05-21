@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Discord Message Bot",
+  "version": "1.0",
+  "description": "Automatically send messages to a Discord channel.",
+  "permissions": [
+    "background",
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "author": "HappyFox",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/16.png",
+      "48": "images/48.png",
+      "128": "images/128.png"
+    }
+  },
+  "icons": {
+    "16": "images/16.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  }
+}
